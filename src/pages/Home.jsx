@@ -30,7 +30,7 @@ const Home = () => {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-            <iframe title="Animated Lottie" className="img-fluid" src="https://lottie.host/embed/0214992f-2621-4b07-b426-c10c3eb5db1d/f5Goo02AYq.lottie" style={{width : "100%", height : "100%", transform: "scaleX(-1)",filter: "grayscale(100%)"}}></iframe>
+            <iframe title="Animated Lottie" className="img-fluid" src="https://lottie.host/embed/0214992f-2621-4b07-b426-c10c3eb5db1d/f5Goo02AYq.lottie" style={{width : "100%", height : "100%"}}></iframe>
               {/* <img
                 src={homeLogo}
                 alt="home pic"

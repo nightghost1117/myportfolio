@@ -6,7 +6,7 @@ import pg from "../assets/projects/pg.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 import kc from "../assets/img/kc.PNG";
-import kc1 from "../assets/img/kc1.PNG";
+import solana from "../assets/img/solana.png";
 import kv from "../assets/img/kv.PNG";
 
 
@@ -27,18 +27,18 @@ const Projects = () => {
               imgPath={kc}
               isBlog={false}
               title="Kitchen Design"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/kevinroberts1117/lift-buddy"
+              description="The Kitchen Design project enables users to interactively design and visualize custom kitchens. By utilizing Three.js, the project allows real-time 3D rendering of kitchen layouts, where users can change the materials of the cabinets and instantly see how those changes impact the overall look of their kitchen."
+              ghLink="https://rtastore.diydesignspace.com"
             />
           </Col>
 
           <Col md={4} className="">
             <ProjectCard
-              imgPath={kc1}
+              imgPath={solana}
               isBlog={false}
-              title="Design Room"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
-              ghLink="https://github.com/kevinroberts1117/social-media"
+              title="Solana Giveaway"
+              description="The Solana Giveaway project allows users to connect their Phantom wallet for participation in giveaways on the Solana blockchain. Built with React for the front-end, the application interacts with the Phantom wallet to securely connect users and allow them to participate by sending their information to the server."
+              ghLink="https://saturnswaps.com"
             />
           </Col>
 
@@ -47,8 +47,8 @@ const Projects = () => {
               imgPath={kv}
               isBlog={false}
               title="Kitchen Visualizer"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/kevinroberts1117/mern-stack-ecommerce"
+              description="Built with React for a seamless and responsive user interface, and powered by a Node.js and Express.js backend, this project efficiently handles user inputs and material selections. The intuitive design helps users visualize different material combinations, making it an ideal tool for anyone looking to redesign or plan their kitchen."
+              ghLink="https://www.fabuwood.com/visualizer"
             />
           </Col>
 

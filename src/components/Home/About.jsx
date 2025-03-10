@@ -14,7 +14,7 @@ const About = () => {
       <Container>
         <Row>
           <Col md={4} className="myAvtar">
-            <iframe className="img-fluid" src="https://lottie.host/embed/c55989db-ce8a-47db-b90d-24211308eeec/unS4HA8d4P.lottie" style={{ width: "100%", height: "100%",filter: "grayscale(100%)" }} title="Lottie Animation"></iframe>
+            <iframe className="img-fluid" src="https://lottie.host/embed/c55989db-ce8a-47db-b90d-24211308eeec/unS4HA8d4P.lottie" style={{ width: "100%", height: "100%" }} title="Lottie Animation"></iframe>
             {/* <img src={LaptopImg} className="img-fluid" alt="avatar" style={{ filter: "grayscale(100%)", transform: "scaleX(-1)" }} /> */}
           </Col>
           <Col md={8} className="home-about-description">

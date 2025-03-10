@@ -593,6 +593,7 @@ button:focus {
   width: 100% !important;
   height: 180px !important;
   border-radius: 8px;
+  cursor: pointer;
 }
 .blog-card {
   padding-top: 50px !important;
