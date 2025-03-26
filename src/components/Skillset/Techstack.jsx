@@ -7,7 +7,7 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiMaterialui,
+  SiMui,
   SiGraphql,
   SiRedux,
   SiMongodb,
@@ -67,7 +67,7 @@ const Techstack = () => {
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiMui />
         <div className="skill-overlay">
           <div className="skill-text">Material UI</div>
         </div>
